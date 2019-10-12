@@ -17,10 +17,10 @@ export default class TimeTable extends Component {
     render() {
         const {workerList} = this.state;
         return(
-          <>
-            <DateColumn dateList={[1, 2, 3, 4]}/>
-            <PersonList workers={workerList}/>
-          </>
+          <div className="d-flex">
+              <DateColumn dateList={['Days','01/01 ПН','02/01 BT','03/01 CP','04/01 ЧТ']}/>
+              <PersonList workers={workerList}/>
+          </div>
         );
     }
 };

@@ -1,14 +1,14 @@
 import React from 'react'
 import PersonListColumn from "../personListColumn";
-import DateColumn from "../dateColumn";
+import './style.css'
 
 const PersonList = ({workers}) => {
     return(
         <>
-            <ul className="list-inline">
+            <ul className="d-flex">
                 {
                     workers.map((el, index) => {
-                        return <li className="list-inline-item" key={index}><PersonListColumn {...el}/></li>
+                        return <li className="list-group-item" key={index}><PersonListColumn {...el}/></li>
                     })
                 }
             </ul>

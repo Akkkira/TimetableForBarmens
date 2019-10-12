@@ -2,13 +2,13 @@ import React from 'react'
 
 const DateColumn = ({dateList}) => {
     return(
-      <ul>
-          {
-              dateList.map((el, index) => {
-                  return <li key={index}>{el}</li>
-              })
-          }
-      </ul>
+          <ul className="list-group">
+              {
+                  dateList.map((el, index) => {
+                      return <li className="list-group-item" key={index}>{el}</li>
+                  })
+              }
+          </ul>
     );
 };
 

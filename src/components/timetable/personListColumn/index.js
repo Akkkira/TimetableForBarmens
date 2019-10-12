@@ -5,10 +5,10 @@ const PersonListColumn = ({name, workTime}) => {
     return(
         <>
         <span>{name}</span>
-        <ul>
+        <ul className="list-group">
             {
                 workTime.map((el, index) => {
-                    return <li key={index}><PersonItem isWork={el}/></li>
+                    return <li className="list-group-item" key={index}><PersonItem isWork={el}/></li>
                 })
             }
         </ul>
