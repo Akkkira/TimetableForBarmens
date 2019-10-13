@@ -18,7 +18,7 @@ export default class TimeTable extends Component {
         const {workerList} = this.state;
         return(
           <div className="d-flex">
-              <DateColumn dateList={['Days','01/01 ПН','02/01 BT','03/01 CP','04/01 ЧТ']}/>
+              <DateColumn dateList={['Days','01/01 ПН','02/01 BT','03/01 CP','04/01 ЧТ', '05/01 ПТ', '06/01 СБ', '07/01 ВС']}/>
               <PersonList workers={workerList}/>
           </div>
         );

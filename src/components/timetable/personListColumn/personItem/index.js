@@ -1,8 +1,9 @@
 import React from 'react'
 
+
 const peopleItem = ({isWork}) => {
     return(
-        <div style={{color: isWork ? "green" : "red"}}>Work</div>
+        <div>PICTURE</div>
     );
 };
 
