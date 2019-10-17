@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddcf89be-f365-4058-95a1-a53e194474fe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Akira.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Akira.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/calendar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/calendar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/login/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/timetable/dateColumn/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/timetable/dateColumn/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/timetable/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/timetable/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/timetable/personList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/timetable/personList/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/timetable/personListColumn/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/timetable/personListColumn/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/timetable/personListColumn/personItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/timetable/personListColumn/personItem/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/timetable/personListColumn/personItem/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/timetable/personListColumn/personItem/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/timetable/personListColumn/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/timetable/personListColumn/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +97,8 @@
       <workItem from="1571248231464" duration="4456000" />
       <workItem from="1571253060266" duration="19780000" />
       <workItem from="1571278317137" duration="155000" />
-      <workItem from="1571296533252" duration="641000" />
+      <workItem from="1571296533252" duration="4658000" />
+      <workItem from="1571305404803" duration="2867000" />
     </task>
     <servers />
   </component>

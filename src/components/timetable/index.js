@@ -13,27 +13,27 @@ export default class TimeTable extends Component {
       workerList: [{
           name: 'Дима',
           picture: pic1,
-          workTime: [false, true, false, true, false, true, true]
+          workTime: [false, false, true, true, false, true, true]
       },
           {
               name: 'Максим',
               picture: pic2,
-              workTime: [false, true, false, true, false, true, true]
+              workTime: [true, true, false, true, false, true, false]
           },
           {
               name: 'Денис',
               picture: pic3,
-              workTime: [false, true, false, true, false, true, true]
+              workTime: [false, true, false, false, true, false, true]
           },
           {
               name: 'Саша',
               picture: pic4,
-              workTime: [false, true, false, true, false, true, true]
+              workTime: [true, false, false, true, false, true, true]
           },
           {
               name: 'Никита',
               picture: pic5,
-              workTime: [false, true, false, true, false, true, true]
+              workTime: [false, true, true, false, true, false, false]
           }
       ]
     };

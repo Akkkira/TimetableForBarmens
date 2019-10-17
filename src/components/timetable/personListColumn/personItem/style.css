@@ -1,4 +1,7 @@
-.for-picture{
-    border-radius: 100px;
-    background-color: limegreen;
+.isWork{
+    opacity: 0.3;
+}
+
+.isChill{
+    opacity: 1;
 }
