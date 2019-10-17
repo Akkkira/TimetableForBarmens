@@ -6,6 +6,7 @@ import TimeTable from "./components/timetable";
 import Login from './components/login'
 import  Calendar from './components/calendar'
 import './carbon/src/style'
+import TimetablePage from "./components/TimetavblePage";
 export default class App extends Component {
     state = {
         valid: false,
@@ -31,14 +32,8 @@ export default class App extends Component {
         ]
     };
     render(){
-        const timeTablePart =   <div className="d-flex">
-            <div className="for-tab list-group"><TimeTable/></div>
-            <div className="for-cal list-group"><Calendar/></div>
-        </div>
-
     const body = this.state.valid ?
-      timeTablePart : <div className="for-login"><Login checkLogin={this.checkLogin} AddInData={this.AddInData}/></div>;
-
+      <TimetablePage/> : <div className="for-login"><Login checkLogin={this.checkLogin} AddInData={this.AddInData}/></div>;
         return(
             <>
                 {body}
