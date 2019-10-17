@@ -29,19 +29,30 @@
 .for-tab{
   position: absolute;
   left: 20%;
-  right: 35%;
+  right: 28%;
   top: 0;
   bottom: 0;
 
   background: #FFFFFF;
 }
 .for-cal{
-  position: absolute;
-  left: 65%;
-  right: 12%;
-  top: 0;
-  bottom: 0;
+   position: absolute;
+   left: 72%;
+   right: 0;
+   top: 0;
+   bottom: 0;
 
-  background: #F7F7F7;
-  backdrop-filter: blur(81.5485px);
+   background: #F7F7F7;
+   backdrop-filter: blur(81.5485px);
+ }
+
+.for-bar-table{
+    position: absolute;
+    left: 5%;
+    right: 12%;
+    top: 0;
+    bottom: 0;
+
+    background: #F7F7F7;
+    backdrop-filter: blur(81.5485px);
 }

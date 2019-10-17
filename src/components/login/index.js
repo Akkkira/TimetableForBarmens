@@ -13,7 +13,7 @@ export default class Login extends Component {
     };
     render() {
         const forIntrance =
-            <>
+            <div onSubmit={this.Push}>
             <form>
                 <input type="text" className="for-log" required onChange={this.ForLogin} placeholder="   Логин" value={this.state.login}/>
             </form>
@@ -22,7 +22,7 @@ export default class Login extends Component {
             </form>
             <button onClick={this.Push} className="for-in-button">Войти</button>
             <button onClick={this.Save} className="for-reg-button">Регистрация</button>
-        </>
+        </div>
 
         const forReg =
             <div className="for-reg">
@@ -104,7 +104,8 @@ export default class Login extends Component {
         this.props.checkLogin(this.state.login,this.state.password)
         this.setState({
             login: '',
-            password: ''
+            password: '',
+
         })
     }
 
@@ -118,6 +119,7 @@ export default class Login extends Component {
             login: '',
             password: ''
         })
+        this.Save()
     }
 
     Save = (e) => {

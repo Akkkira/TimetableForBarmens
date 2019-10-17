@@ -32,11 +32,11 @@ export default class App extends Component {
     };
     render(){
     const body = this.state.valid ?
-        <NavigationBar/> : <div className="for-login"><Login checkLogin={this.checkLogin} AddInData={this.AddInData}/></div>;
+       <div className="for-bar-table"><NavigationBar/></div> : <div className="for-login"><Login checkLogin={this.checkLogin} AddInData={this.AddInData}/></div>;
         return(
-            <>
+            <div className="for-main-block">
                 {body}
-            </>
+            </div>
         )
     }
 
@@ -53,7 +53,8 @@ export default class App extends Component {
     AddInData = (firstName,secondName,login,password) => {
         const newData = [...this.state.data, this.createNewItem(firstName,secondName,login,password)];
         this.setState({
-            data: newData
+            data: newData,
+            valid: false
         })
     }
 }

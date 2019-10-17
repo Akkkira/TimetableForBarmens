@@ -1,13 +1,14 @@
 import React from 'react'
 import {BrowserRouter as Router, Link, Switch, Route} from "react-router-dom";
 import TimetablePage from "../TimetavblePage";
+import './style.css'
 
 const NavigationBar = () => (
     <Router>
-        <ul>
-            <li><Link to='/'>Home</Link></li>
-            <li><Link to='/musicians'>Musicians</Link></li>
-            <li><Link to='/settings'>Settings</Link></li>
+        <ul className="list-bar">
+            <li><Link to='/'>Календарь</Link></li>
+            <li><Link to='/musicians'>Музыканты</Link></li>
+            <li><Link to='/settings'>Настройки</Link></li>
         </ul>
         <Switch>
             <Route path='/' component={TimetablePage} exact/>
