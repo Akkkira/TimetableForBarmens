@@ -1,18 +1,19 @@
 import React from 'react'
 import PersonItem from './personItem'
+import './style.css'
 
-const PersonListColumn = ({name, workTime}) => {
+const PersonListColumn = ({name, workTime, picture}) => {
     return(
         <>
-        <span>{name}</span>
-        <ul className="list-group">
-            {
-                workTime.map((el, index) => {
-                    return <li className="list-group-item" key={index}><PersonItem isWork={el}/></li>
-                })
-            }
-        </ul>
-      </>
+            <div style={{'borderRadius':'0'}} className="popover-body for-names">{name}</div>
+            <ul>
+                {
+                    workTime.map((el, index) => {
+                        return <li style={{'borderRadius':'0'}}  className="modal-body" key={index}><PersonItem name={name} picture={picture} isWork={el}/></li>
+                    })
+                }
+            </ul>
+        </>
     );
 };
 

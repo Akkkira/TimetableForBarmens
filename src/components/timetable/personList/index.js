@@ -8,7 +8,7 @@ const PersonList = ({workers}) => {
             <ul className="d-flex">
                 {
                     workers.map((el, index) => {
-                        return <li className="list-group-item" key={index}><PersonListColumn {...el}/></li>
+                        return <li key={index}><PersonListColumn {...el}/></li>
                     })
                 }
             </ul>

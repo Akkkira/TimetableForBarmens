@@ -1,0 +1,79 @@
+.for-reg {
+    position: absolute;
+    top: 20%;
+    bottom: 40%;
+    left: 10%;
+    right: 30%;
+
+    border-radius: 20px;
+}
+
+.for-log {
+    position: absolute;
+    width: 20%;
+    height: 6%;
+    right: 40%;
+    top: 30%;
+
+    border-radius: 20px;
+    background: rgba(196, 196, 196, 0.15);
+}
+
+.for-pas {
+    position: absolute;
+    width: 20%;
+    height: 6%;
+    left: 40%;
+    top: 40%;
+
+    border-radius: 20px;
+    background: rgba(196, 196, 196, 0.15);
+}
+
+.for-in-button {
+    position: absolute;
+    width: 9%;
+    height: 5%;
+    left: 40%;
+    top: 50%;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.12);
+}
+
+.for-reg-button {
+    position: absolute;
+    width: 9%;
+    height: 5%;
+    right: 40%;
+    top: 50%;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.12);
+}
+
+.for-save-button {
+    position: absolute;
+    width: 15%;
+    height: 10%;
+    left: 30%;
+    bottom: 30%;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.12);
+}
+
+.for-back-button {
+    position: absolute;
+    width: 15%;
+    height: 10%;
+    left: 50%;
+    bottom: 30%;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.12);
+}

@@ -20,3 +20,28 @@
 .App-link {
   color: #09d3ac;
 }
+
+.for-login {
+  display: flex;
+  justify-content: center;
+  padding-top: 15%;
+}
+.for-tab{
+  position: absolute;
+  left: 20%;
+  right: 35%;
+  top: 0;
+  bottom: 0;
+
+  background: #FFFFFF;
+}
+.for-cal{
+  position: absolute;
+  left: 65%;
+  right: 12%;
+  top: 0;
+  bottom: 0;
+
+  background: #F7F7F7;
+  backdrop-filter: blur(81.5485px);
+}
