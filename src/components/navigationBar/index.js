@@ -6,15 +6,18 @@ const NavigationBar = () => (
     <Router>
         <ul>
             <li><Link to='/'>Home</Link></li>
-            <li><Link to='musicians'>Musicians</Link></li>
-            <li><Link to='settings'>Settings</Link></li>
+            <li><Link to='/musicians'>Musicians</Link></li>
+            <li><Link to='/settings'>Settings</Link></li>
         </ul>
         <Switch>
             <Route path='/' component={TimetablePage} exact/>
-            <Route path='/musicians' component={<h1>Musicians</h1>}/>
-            <Route path='/settings' component={<h1>Settings</h1>}/>
+            <Route path='/musicians' component={Musicians}/>
+            <Route path='/settings' component={Settings}/>
         </Switch>
     </Router>
 );
+
+const Musicians = () => (<h1>Musicians</h1>);
+const Settings = () => (<h1>Settings</h1>);
 
 export default NavigationBar;
