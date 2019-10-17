@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import axios from 'axios'
 import PersonList from "./personList";
 import DateColumn from "./dateColumn";
 import pic1 from '../../pictures/7IPfK2hBvRg.jpg'
@@ -37,12 +36,6 @@ export default class TimeTable extends Component {
           }
       ]
     };
-
-  /*  componentDidMount() {
-        axios.get("https://barmens-19e36.firebaseio.com/workerList.json")
-            .then(response => this.setState({workerList: response.data}))
-            .catch(error => console.log(error))
-    } */
 
     render() {
         const {workerList} = this.state;

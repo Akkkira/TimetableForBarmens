@@ -2,11 +2,10 @@ import React,{Component} from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavigationBar from "./components/navigationBar";
-import TimeTable from "./components/timetable";
 import Login from './components/login'
-import  Calendar from './components/calendar'
 import './carbon/src/style'
-import TimetablePage from "./components/TimetavblePage";
+
+
 export default class App extends Component {
     state = {
         valid: false,
@@ -33,7 +32,7 @@ export default class App extends Component {
     };
     render(){
     const body = this.state.valid ?
-      <TimetablePage/> : <div className="for-login"><Login checkLogin={this.checkLogin} AddInData={this.AddInData}/></div>;
+        <NavigationBar/> : <div className="for-login"><Login checkLogin={this.checkLogin} AddInData={this.AddInData}/></div>;
         return(
             <>
                 {body}

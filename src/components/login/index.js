@@ -68,7 +68,6 @@ export default class Login extends Component {
                 <button onClick={this.Save} className="for-back-button">Назад</button>
         </div>
         const body = this.state.reg ? forIntrance : forReg
-        console.log({body})
         return(
                 <div>
                     {body}

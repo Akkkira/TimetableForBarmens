@@ -2,8 +2,381 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddcf89be-f365-4058-95a1-a53e194474fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/TimetavblePage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reducers/workers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/workers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/cypress/support/helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/cypress/support/helper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/cypress/support/step-definitions/animated-menu-button-steps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/cypress/support/step-definitions/animated-menu-button-steps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/cypress/support/step-definitions/card-steps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/cypress/support/step-definitions/card-steps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/cypress/support/step-definitions/carousel-steps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/cypress/support/step-definitions/carousel-steps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/cypress/support/step-definitions/common-steps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/cypress/support/step-definitions/common-steps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/cypress/support/step-definitions/date-input-steps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/cypress/support/step-definitions/date-input-steps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/cypress/support/step-definitions/date-range-steps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/cypress/support/step-definitions/date-range-steps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/cypress/support/step-definitions/decimal-steps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/cypress/support/step-definitions/decimal-steps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/cypress/support/step-definitions/dialog-steps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/cypress/support/step-definitions/dialog-steps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/cypress/support/step-definitions/flash-steps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/cypress/support/step-definitions/flash-steps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/cypress/support/step-definitions/i18n-steps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/cypress/support/step-definitions/i18n-steps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/cypress/support/step-definitions/pages-steps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/cypress/support/step-definitions/pages-steps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/cypress/support/step-definitions/pod-steps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/cypress/support/step-definitions/pod-steps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/cypress/support/step-definitions/rainbow-steps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/cypress/support/step-definitions/rainbow-steps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/cypress/support/step-definitions/step-sequence-steps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/cypress/support/step-definitions/step-sequence-steps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/cypress/support/step-definitions/table-steps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/cypress/support/step-definitions/table-steps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/actions/browser/browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/actions/browser/browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/actions/component/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/actions/component/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/actions/demo/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/actions/demo/demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/actions/document/document.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/actions/document/document.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/components/color-panel/color-panel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/components/color-panel/color-panel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/components/content-grid/content-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/components/content-grid/content-grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/components/icon-panel/icon-panel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/components/icon-panel/icon-panel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/components/info-tile/info-tile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/components/info-tile/info-tile.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/components/simple-heading/simple-heading.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/components/simple-heading/simple-heading.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/stores/browser/browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/stores/browser/browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/stores/component/component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/stores/component/component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/stores/document/document.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/stores/document/document.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/utils/definition/input-definition/input-definition.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/utils/definition/input-definition/input-definition.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/utils/definition/modal-definition/modal-definition.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/utils/definition/modal-definition/modal-definition.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/utils/site-map-helper/generate-menu/generate-menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/utils/site-map-helper/generate-menu/generate-menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/utils/site-map-helper/generate-routes/generate-routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/utils/site-map-helper/generate-routes/generate-routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/views/chrome/chrome.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/views/chrome/chrome.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/views/chrome/footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/views/chrome/footer/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/views/chrome/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/views/chrome/header/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/views/chrome/menu/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/views/chrome/menu/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/views/chrome/sub-page-chrome/page-background/page-background.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/views/chrome/sub-page-chrome/page-background/page-background.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/views/chrome/sub-page-chrome/sub-page-chrome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/views/chrome/sub-page-chrome/sub-page-chrome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/views/common/page-content-area/page-content-area.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/views/common/page-content-area/page-content-area.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/views/common/page-header-large/page-header-large.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/views/common/page-header-large/page-header-large.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/views/common/page-header-large/page-header-large.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/views/common/page-header-large/page-header-large.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/views/common/page-header-small/page-header-small.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/views/common/page-header-small/page-header-small.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/views/common/page-header-small/page-header-small.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/views/common/page-header-small/page-header-small.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/views/common/sub-page-navigation/build-prev-next-from-definition/build-prev-next-from-definition.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/views/common/sub-page-navigation/build-prev-next-from-definition/build-prev-next-from-definition.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/views/common/sub-page-navigation/sub-page-navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/views/common/sub-page-navigation/sub-page-navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/views/common/sub-page-navigation/sub-page-navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/views/common/sub-page-navigation/sub-page-navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/views/pages/document/document.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/views/pages/document/document.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/views/pages/home/component-showcase/component-showcase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/views/pages/home/component-showcase/component-showcase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/views/pages/home/component-showcase/component-showcase.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/views/pages/home/component-showcase/component-showcase.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/views/pages/home/get-started/get-started.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/views/pages/home/get-started/get-started.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/views/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/views/pages/home/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/views/pages/home/sage-loves-carbon/sage-loves-carbon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/views/pages/home/sage-loves-carbon/sage-loves-carbon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/views/pages/home/sage-loves-carbon/sage-loves-carbon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/views/pages/home/sage-loves-carbon/sage-loves-carbon.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/views/pages/home/selling-points/selling-points.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/views/pages/home/selling-points/selling-points.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/views/pages/style/colors/colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/views/pages/style/colors/colors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/views/pages/style/colors/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/views/pages/style/colors/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/views/pages/style/icons/icons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/views/pages/style/icons/icons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/demo/xhr-mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/demo/xhr-mock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/date-range/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/date-range/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/date-range/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/date-range/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/date-range/date-range.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/date-range/date-range.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/date-range/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/date-range/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/date/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/date/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/date/date.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/date/date.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/decimal/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/decimal/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/decimal/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/decimal/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/dropdown-filter-ajax/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/dropdown-filter-ajax/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/dropdown-filter/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/dropdown-filter/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/dropdown-filter/dropdown-filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/dropdown-filter/dropdown-filter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/dropdown-filter/dropdown-filter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/dropdown-filter/dropdown-filter.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/dropdown/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/dropdown/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/dropdown/dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/dropdown/dropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/dropdown/dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/dropdown/dropdown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/dropdown/dropdown.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/dropdown/dropdown.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/dropdown/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/dropdown/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/fieldset/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/fieldset/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/fieldset/fieldset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/fieldset/fieldset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/fieldset/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/fieldset/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/form/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/form/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/form/form-button/form-button.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/form/form-button/form-button.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/form/form-button/form-button.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/form/form-button/form-button.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/form/form-summary/form-summary.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/form/form-summary/form-summary.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/form/form.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/form/form.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/form/form.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/form/form.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/form/form.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/form/form.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/grouped-character/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/grouped-character/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/number/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/number/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/radio-button/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/radio-button/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/simple-color-picker/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/simple-color-picker/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/simple-color-picker/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/simple-color-picker/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/simple-color-picker/color-option/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/simple-color-picker/color-option/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/switch/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/switch/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/switch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/switch/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/textarea/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/textarea/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/textarea/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/textarea/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/textarea/textarea.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/textarea/textarea.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/textbox/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__deprecated__/components/textbox/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/checkable-input/checkable-input.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/checkable-input/checkable-input.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/checkbox/checkbox.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/checkbox/checkbox.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/date/date-picker.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/date/date-picker.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/date/date-picker.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/date/date-picker.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/date/date.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/date/date.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/form-field/form-field.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/form-field/form-field.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/form-field/form-field.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/form-field/form-field.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/form/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/form/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/form/form.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/form/form.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/form/form.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/form/form.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/form/form.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/form/form.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/input-decorator-bridge/input-decorator-bridge.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/input-decorator-bridge/input-decorator-bridge.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/input/input-presentation.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/input/input-presentation.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/input/input.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/input/input.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/radio-button/radio-button-group.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/radio-button/radio-button-group.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/radio-button/radio-button-group.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/radio-button/radio-button-group.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/radio-button/radio-button.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/radio-button/radio-button.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/radio-button/radio-button.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/radio-button/radio-button.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/select-async/select-async.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/select-async/select-async.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/select/select.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/select/select.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/simple-color-picker/color-option/color-option.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/simple-color-picker/color-option/color-option.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/simple-color-picker/color-sample-box/color-sample-box.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/simple-color-picker/color-sample-box/color-sample-box.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/simple-color-picker/simple-color-picker.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/simple-color-picker/simple-color-picker.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/simple-color-picker/simple-color-picker.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/simple-color-picker/simple-color-picker.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/simple-color-picker/simple-color-picker.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/simple-color-picker/simple-color-picker.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/switch/switch.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/switch/switch.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/switch/switch.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/switch/switch.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/textarea/character-count/character-count.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/textarea/character-count/character-count.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/textarea/textarea.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/textarea/textarea.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/textarea/textarea.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/textarea/textarea.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/textbox/textbox.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/textbox/textbox.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/textbox/textbox.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/textbox/textbox.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/textbox/textbox.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/__experimental__/components/textbox/textbox.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/action-popover/action-popover.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/action-popover/action-popover.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/action-toolbar/action-toolbar.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/action-toolbar/action-toolbar.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/action-toolbar/action-toolbar.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/action-toolbar/action-toolbar.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/alert/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/alert/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/alert/alert.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/alert/alert.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/alert/alert.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/alert/alert.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/animated-menu-button/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/animated-menu-button/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/animated-menu-button/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/animated-menu-button/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/animated-menu-button/animated-menu-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/animated-menu-button/animated-menu-button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/animated-menu-button/animated-menu-button.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/animated-menu-button/animated-menu-button.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/app-wrapper/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/app-wrapper/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/app-wrapper/app-wrapper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/app-wrapper/app-wrapper.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/app-wrapper/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/app-wrapper/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/button-toggle-group/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/button-toggle-group/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/button-toggle/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/button-toggle/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/button/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/button/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/button/button.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/button/button.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/card/card.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/card/card.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/carousel/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/carousel/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/carousel/carousel.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/carousel/carousel.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/carousel/carousel.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/carousel/carousel.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/carousel/slide/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/carousel/slide/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/carousel/slide/slide.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/carousel/slide/slide.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/configurable-items/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/configurable-items/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/configurable-items/configurable-item-row/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/configurable-items/configurable-item-row/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/configurable-items/configurable-item-row/configurable-item-row.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/configurable-items/configurable-item-row/configurable-item-row.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/configurable-items/configurable-items.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/configurable-items/configurable-items.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/configurable-items/configurable-items.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/configurable-items/configurable-items.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/configurable-items/configurable-items.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/configurable-items/configurable-items.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/configurable-items/configurable-items.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/configurable-items/configurable-items.style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/confirm/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/confirm/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/confirm/confirm.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/confirm/confirm.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/content/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/content/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/content/content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/content/content.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/create/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/create/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/create/create.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/create/create.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/create/create.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/create/create.style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/detail/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/detail/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/detail/detail.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/detail/detail.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/dialog-full-screen/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/dialog-full-screen/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/dialog-full-screen/dialog-full-screen.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/dialog-full-screen/dialog-full-screen.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/dialog-full-screen/dialog-full-screen.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/dialog-full-screen/dialog-full-screen.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/dialog/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/dialog/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/dialog/dialog.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/dialog/dialog.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/dialog/dialog.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/dialog/dialog.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/dismiss-button/dismiss-button.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/dismiss-button/dismiss-button.style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/drag-and-drop/custom-drag-layer/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/drag-and-drop/custom-drag-layer/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/drag-and-drop/custom-drag-layer/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/drag-and-drop/custom-drag-layer/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/drag-and-drop/draggable-context/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/drag-and-drop/draggable-context/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/drag-and-drop/draggable-context/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/drag-and-drop/draggable-context/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/drag-and-drop/draggable-context/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/drag-and-drop/draggable-context/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/drag-and-drop/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/drag-and-drop/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/drag-and-drop/with-drag/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/drag-and-drop/with-drag/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/drag-and-drop/with-drag/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/drag-and-drop/with-drag/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/drag-and-drop/with-drop/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/drag-and-drop/with-drop/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/drag-and-drop/with-drop/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/drag-and-drop/with-drop/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/drag-and-drop/with-drop/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/drag-and-drop/with-drop/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/filter/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/filter/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/filter/filter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/filter/filter.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/flash/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/flash/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/flash/flash-legacy.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/flash/flash-legacy.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/flash/flash-legacy.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/flash/flash-legacy.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/flash/flash-legacy.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/flash/flash-legacy.style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/heading/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/heading/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/heading/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/heading/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/heading/heading.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/heading/heading.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/heading/heading.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/heading/heading.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/help/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/help/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/help/help.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/help/help.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/i18n/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/i18n/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/icon/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/icon/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/icon/icon.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/icon/icon.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/icon/icon.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/icon/icon.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/inline-inputs/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/inline-inputs/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/inline-inputs/inline-inputs.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/inline-inputs/inline-inputs.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/inline-inputs/inline-inputs.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/inline-inputs/inline-inputs.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/inline-inputs/inline-inputs.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/inline-inputs/inline-inputs.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/link/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/link/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/loader/loader.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/loader/loader.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/menu-list/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/menu-list/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/menu-list/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/menu-list/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/menu-list/menu-list-item/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/menu-list/menu-list-item/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/menu-list/menu-list-item/menu-list-item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/menu-list/menu-list-item/menu-list-item.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/menu-list/menu-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/menu-list/menu-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/menu/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/menu/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/menu/menu-item/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/menu/menu-item/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/menu/menu-item/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/menu/menu-item/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/menu/menu-item/menu-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/menu/menu-item/menu-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/menu/menu-item/menu-item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/menu/menu-item/menu-item.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/menu/menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/menu/menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/menu/submenu-block/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/menu/submenu-block/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/menu/submenu-block/submenu-block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/menu/submenu-block/submenu-block.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/message/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/message/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/message/message-content/message-content.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/message/message-content/message-content.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/mount-in-app/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/mount-in-app/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/mount-in-app/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/mount-in-app/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/multi-action-button/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/multi-action-button/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/multi-action-button/multi-action-button.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/multi-action-button/multi-action-button.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/multi-action-button/multi-action-button.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/multi-action-button/multi-action-button.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/multi-action-button/multi-action-button.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/multi-action-button/multi-action-button.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/multi-step-wizard/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/multi-step-wizard/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/multi-step-wizard/step/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/multi-step-wizard/step/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/multi-step-wizard/step/step.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/multi-step-wizard/step/step.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/multi-step-wizard/step/step.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/multi-step-wizard/step/step.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/navigation-bar/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/navigation-bar/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/navigation-bar/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/navigation-bar/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/navigation-bar/navigation-bar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/navigation-bar/navigation-bar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/pager/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/pager/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/pages/pages.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/pages/pages.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/pages/pages.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/pages/pages.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/pill/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/pill/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/pill/pill.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/pill/pill.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/pill/pill.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/pill/pill.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/pod/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/pod/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/pod/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/pod/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/pod/pod.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/pod/pod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/pod/pod.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/pod/pod.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/portal/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/portal/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/portal/portal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/portal/portal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/portrait/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/portrait/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/preview/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/preview/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/profile/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/profile/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/profile/profile.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/profile/profile.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/rainbow/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/rainbow/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/row/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/row/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/row/column/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/row/column/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/row/column/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/row/column/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/row/row.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/row/row.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/settings-row/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/settings-row/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/settings-row/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/settings-row/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/settings-row/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/settings-row/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/settings-row/settings-row.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/settings-row/settings-row.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/show-edit-pod/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/show-edit-pod/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/show-edit-pod/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/show-edit-pod/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/show-edit-pod/show-edit-pod.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/show-edit-pod/show-edit-pod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/show-edit-pod/show-edit-pod.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/show-edit-pod/show-edit-pod.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/sidebar/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/sidebar/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/sidebar/sidebar-header/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/sidebar/sidebar-header/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/sidebar/sidebar-header/sidebar-header.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/sidebar/sidebar-header/sidebar-header.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/sidebar/sidebar.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/sidebar/sidebar.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/split-button/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/split-button/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/split-button/split-button.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/split-button/split-button.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/split-button/split-button.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/split-button/split-button.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/split-button/split-button.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/split-button/split-button.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/step-sequence/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/step-sequence/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/step-sequence/step-sequence-item/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/step-sequence/step-sequence-item/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/table-ajax/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/table-ajax/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/table-ajax/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/table-ajax/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/table-ajax/table-ajax.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/table-ajax/table-ajax.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/table/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/table/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/table/draggable-table-cell/draggable-table-cell.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/table/draggable-table-cell/draggable-table-cell.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/table/table-cell/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/table/table-cell/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/table/table-cell/table-cell.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/table/table-cell/table-cell.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/table/table-header/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/table/table-header/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/table/table-header/table-header.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/table/table-header/table-header.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/table/table-header/table-header.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/table/table-header/table-header.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/table/table-row/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/table/table-row/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/table/table-row/table-row.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/table/table-row/table-row.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/table/table-row/table-row.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/table/table-row/table-row.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/table/table-story-helpers/table-story-wrapper.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/table/table-story-helpers/table-story-wrapper.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/table/table-subheader/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/table/table-subheader/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/table/table-subheader/table-subheader.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/table/table-subheader/table-subheader.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/table/table.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/table/table.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/table/table.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/table/table.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/table/table.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/table/table.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/tabs/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/tabs/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/tabs/tab/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/tabs/tab/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/tile/tile.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/tile/tile.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/tile/tile.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/tile/tile.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/toast/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/toast/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/toast/toast.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/toast/toast.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/toast/toast.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/toast/toast.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/toast/toast.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/toast/toast.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/tooltip/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/tooltip/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/tooltip/tooltip.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/tooltip/tooltip.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/tooltip/tooltip.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/tooltip/tooltip.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/tooltip/tooltip.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/tooltip/tooltip.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/validations/form-with-validations.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/validations/form-with-validations.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/validations/textbox-validations.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/validations/textbox-validations.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/components/validations/with-validation.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/components/validations/with-validation.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/patterns/configurable-items/__definition__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/patterns/configurable-items/__definition__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/patterns/configurable-items/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/patterns/configurable-items/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/patterns/configurable-items/actions/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/patterns/configurable-items/actions/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/patterns/configurable-items/configurable-items-content/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/patterns/configurable-items/configurable-items-content/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/patterns/configurable-items/store/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/patterns/configurable-items/store/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/style-config/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/style-config/colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/style-config/general.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/style-config/general.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/style-config/input-field.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/style-config/input-field.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/style/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/style/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/style/fonts/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/style/fonts/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/style/themes/base/base-theme.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/style/themes/base/base-theme.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/style/themes/classic/classic-theme.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/style/themes/classic/classic-theme.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/style/themes/classic/classic-theme.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/style/themes/classic/classic-theme.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/style/themes/large/large-theme.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/style/themes/large/large-theme.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/style/themes/large/large.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/style/themes/large/large.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/style/themes/medium/medium-theme.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/style/themes/medium/medium-theme.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/style/themes/medium/medium.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/style/themes/medium/medium.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/style/themes/none/none-theme.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/style/themes/none/none-theme.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/style/themes/none/none.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/style/themes/none/none.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/style/themes/small/small-theme.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/style/themes/small/small-theme.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/style/themes/small/small.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/style/themes/small/small.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/style/themes/theme.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/style/themes/theme.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/utils/css/css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/utils/css/css.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/utils/decorators/input-icon/input-icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/utils/decorators/input-icon/input-icon.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/utils/decorators/input-label/input-label.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/utils/decorators/input-label/input-label.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/utils/decorators/input-validation/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/utils/decorators/input-validation/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/utils/decorators/input-validation/input-validation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/utils/decorators/input-validation/input-validation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/utils/decorators/input/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/utils/decorators/input/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/utils/decorators/input/input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/utils/decorators/input/input.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/utils/ether/ether.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/utils/ether/ether.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/utils/filter-children/filter-children.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/utils/filter-children/filter-children.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/utils/helpers/browser-type-check/browser-type-check.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/utils/helpers/browser-type-check/browser-type-check.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/utils/helpers/dnd/item-target/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/utils/helpers/dnd/item-target/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/utils/helpers/element-resize/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/utils/helpers/element-resize/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/utils/helpers/immutable/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/utils/helpers/immutable/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/utils/helpers/immutable/immutable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/utils/helpers/immutable/immutable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/utils/helpers/prop-types/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/utils/helpers/prop-types/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/utils/helpers/should-component-update/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/utils/helpers/should-component-update/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/utils/helpers/style-helper/style-helper.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/utils/helpers/style-helper/style-helper.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/utils/helpers/with-unique-name/with-unique-name.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/utils/helpers/with-unique-name/with-unique-name.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/utils/logger/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/utils/logger/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/utils/validations/date-range/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/utils/validations/date-range/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/utils/validations/date-within-range/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/utils/validations/date-within-range/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/utils/validations/email/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/utils/validations/email/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/utils/validations/length/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/utils/validations/length/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/utils/validations/numeral/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/utils/validations/numeral/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/utils/validations/presence/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/utils/validations/presence/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/utils/validations/regex/__spec__.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/utils/validations/regex/__spec__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carbon/src/utils/validations/validator/validator.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon/src/utils/validations/validator/validator.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/calendar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/calendar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigationBar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigationBar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/timetable/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/timetable/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/timetable/personListColumn/personItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/timetable/personListColumn/personItem/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,14 +385,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
+        <entry file="file://$PROJECT_DIR$/src/components/login/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="35" column="123" selection-start-line="35" selection-start-column="123" selection-end-line="35" selection-end-column="123" />
+            <state>
+              <caret line="69" column="58" lean-forward="true" selection-start-line="69" selection-start-column="58" selection-end-line="69" selection-end-column="58" />
               <folding>
-                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#0#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -40,8 +413,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/components/timetable/personListColumn/personItem/index.js" />
         <option value="$PROJECT_DIR$/src/components/TimetavblePage/index.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/calendar/index.js" />
+        <option value="$PROJECT_DIR$/src/Reducers/index.js" />
+        <option value="$PROJECT_DIR$/src/Reducers/workers.js" />
+        <option value="$PROJECT_DIR$/src/constants/index.js" />
+        <option value="$PROJECT_DIR$/src/components/navigationBar/index.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/actions/index.js" />
+        <option value="$PROJECT_DIR$/src/reducers/workers.js" />
+        <option value="$PROJECT_DIR$/src/reducers/index.js" />
+        <option value="$PROJECT_DIR$/src/components/timetable/index.js" />
+        <option value="$PROJECT_DIR$/src/components/login/index.js" />
       </list>
     </option>
   </component>
@@ -75,6 +460,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TimetableForBarmens" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TimetableForBarmens" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -101,6 +493,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Home\Desktop\TimetableForBarmens\src" />
+      <recent name="C:\Users\Home\Desktop\TimetableForBarmens\src\components" />
       <recent name="C:\Users\Home\Desktop\barmensnew\src\components\timetable\personListColumn" />
       <recent name="C:\Users\Home\Desktop\barmensnew\src\components\navigationBar" />
     </key>
@@ -156,25 +550,23 @@
       <workItem from="1571278317137" duration="155000" />
       <workItem from="1571296533252" duration="4658000" />
       <workItem from="1571305404803" duration="2867000" />
-      <workItem from="1571310982867" duration="880000" />
+      <workItem from="1571310982867" duration="1044000" />
+      <workItem from="1571312085835" duration="1575000" />
+      <workItem from="1571317590957" duration="5330000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="880000" />
+    <option name="totallyTimeSpent" value="7949000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="GraphQL" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32916668" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32916668" />
@@ -182,6 +574,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="GraphQL" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32916668" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -224,9 +621,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/timetable/personList/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -236,41 +630,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/login/index.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2818">
+        <state relative-caret-position="-10" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/carbon-components-react/es/components/Pagination/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/timetable/personListColumn/personItem/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/timetable/index.js">
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/calendar/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35">
-          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="46" />
+        <state relative-caret-position="72">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/timetable/dateColumn/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constants/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/navigationBar/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/workers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/TimetavblePage/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state relative-caret-position="288">
+          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
           <folding>
-            <element signature="e#0#8#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/src/components/timetable/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="35" column="123" selection-start-line="35" selection-start-column="123" selection-end-line="35" selection-end-column="123" />
+        <state relative-caret-position="374">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/login/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="69" column="58" lean-forward="true" selection-start-line="69" selection-start-column="58" selection-end-line="69" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
