@@ -6,9 +6,9 @@ import './style.css'
 const NavigationBar = () => (
     <Router>
         <ul className="list-bar">
-            <li><Link to='/'>Календарь</Link></li>
-            <li><Link to='/musicians'>Музыканты</Link></li>
-            <li><Link to='/settings'>Настройки</Link></li>
+            <li><Link to='/'><i className="fa fa-glass fa-pulse"/> Бармены</Link></li>
+            <li><Link to='/musicians'><i className="fa fa-music "/> Музыканты</Link></li>
+            <li><Link to='/settings'><i className="fa fa-gear fa-spin"/> Настройки</Link></li>
         </ul>
         <Switch>
             <Route path='/' component={TimetablePage} exact/>

@@ -1,0 +1,33 @@
+import pic1 from "./pictures/7IPfK2hBvRg.jpg";
+import pic2 from "./pictures/4EqnHCsQVYA.jpg";
+import pic3 from "./pictures/257307-the-devil-is-a-part-timer-lucifer.jpg";
+import pic4 from "./pictures/BUxZsAV8OU8.jpg";
+import pic5 from "./pictures/AlcTwgXWZPQ.jpg";
+
+{data: [{
+name: 'Дима',
+picture: pic1,
+workTime: [false, false, true, true, false, true, true, false, false, true, true, false, true, true]
+},
+{
+name: 'Максим',
+picture: pic2,
+workTime: [true, true, false, true, false, true, false, false, false, true, true, false, true, true]
+},
+{
+name: 'Денис',
+picture: pic3,
+workTime: [false, true, false, false, true, false, true, false, false, true, true, false, true, true]
+},
+{
+name: 'Саша',
+picture: pic4,
+workTime: [true, false, false, true, false, true, true, false, false, true, true, false, true, true]
+},
+{
+name: 'Никита',
+picture: pic5,
+workTime: [false, true, true, false, true, false, false, false, false, true, true, false, true, true]
+}
+]}
+

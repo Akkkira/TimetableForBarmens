@@ -6,45 +6,28 @@ import pic2 from '../../pictures/4EqnHCsQVYA.jpg'
 import pic3 from '../../pictures/257307-the-devil-is-a-part-timer-lucifer.jpg'
 import  pic4 from '../../pictures/BUxZsAV8OU8.jpg'
 import pic5 from '../../pictures/AlcTwgXWZPQ.jpg'
+import dataBase from '../../database'
 
 export default class TimeTable extends Component {
     state = {
-      workerList: [{
-          name: 'Дима',
-          picture: pic1,
-          workTime: [false, false, true, true, false, true, true]
-      },
-          {
-              name: 'Максим',
-              picture: pic2,
-              workTime: [true, true, false, true, false, true, false]
-          },
-          {
-              name: 'Денис',
-              picture: pic3,
-              workTime: [false, true, false, false, true, false, true]
-          },
-          {
-              name: 'Саша',
-              picture: pic4,
-              workTime: [true, false, false, true, false, true, true]
-          },
-          {
-              name: 'Никита',
-              picture: pic5,
-              workTime: [false, true, true, false, true, false, false]
-          }
-      ]
+        workerList: dataBase
     };
 
     render() {
         const {workerList} = this.state;
-        return(
-          <div className="d-flex">
-              <DateColumn dateList={['  ','01.01 ПН','02.01 BT','03.01 CP','04.01 ЧТ', '05.01 ПТ', '06.01 СБ', '07.01 ВС']}/>
-              <PersonList workers={workerList}/>
-          </div>
+        return (
+            <div className="d-flex">
+                <DateColumn
+                    dateList={['  ', '01.01 ПН', '02.01 BT', '03.01 CP', '04.01 ЧТ', '05.01 ПТ', '06.01 СБ', '07.01 ВС', '08.01 ПН', '09.01 ВТ', '10.01 СР', '11.01 ЧТ', '12.01 ПТ', '13.01 СБ', '14.01 ВС']}/>
+                <PersonList workers={workerList}/>
+            </div>
         );
+    }
+
+    AddInWorkList = () => {
+        this.setState({
+            workerList: this.props.data
+        })
     }
 };
 

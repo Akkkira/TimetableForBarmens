@@ -11,7 +11,7 @@ export default class TimetablePage extends Component {
     render() {
         return(
             <div className="d-flex">
-                <div className="for-tab list-group"><TimeTable /></div>
+                <div className="for-tab list-group" ><TimeTable /></div>
                 <div className="for-cal list-group"><Calendar /></div>
             </div>
         );

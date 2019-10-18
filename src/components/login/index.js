@@ -13,14 +13,14 @@ export default class Login extends Component {
     };
     render() {
         const forIntrance =
-            <div onSubmit={this.Push}>
+            <div onSubmit={this.Push} className="for-in-block">
             <form>
                 <input type="text" className="for-log" required onChange={this.ForLogin} placeholder="   Логин" value={this.state.login}/>
             </form>
             <form>
                 <input type="text" className="for-pas" required onChange={this.ForPassword} placeholder="   Пароль" value={this.state.password}/>
             </form>
-            <button onClick={this.Push} className="for-in-button">Войти</button>
+            <button onClick={this.Push} type="button" className="for-in-button">Войти</button>
             <button onClick={this.Save} className="for-reg-button">Регистрация</button>
         </div>
 

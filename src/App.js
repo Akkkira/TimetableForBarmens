@@ -4,31 +4,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavigationBar from "./components/navigationBar";
 import Login from './components/login'
 import './carbon/src/style'
+import dataBase from './database'
 
 
 export default class App extends Component {
     state = {
         valid: false,
-        data: [
-            {
-                firstName: 'Denis',
-                secondName: 'Rubis',
-                login: 'Akira',
-                password: '1231'
-            },
-            {
-                firstName: 'Tima',
-                secondName: 'Zarenok',
-                login: 'ghto',
-                password: 'ghto'
-            },
-            {
-                firstName: 'Nikita',
-                secondName: 'Birulya',
-                login: 'Kujatata',
-                password: '1313'
-            }
-        ]
+        data: dataBase
     };
     render(){
     const body = this.state.valid ?

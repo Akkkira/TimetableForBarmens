@@ -1,8 +1,15 @@
 .list-bar {
     position: absolute;
-    top: 15%;
+    top: 12%;
     /*left: 4%;*/
-    left: 5.21%;
-    right: 86.15%;
+    left: 4%;
+    right: 80%;
     /*right: 80%;*/
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 120%;
+    line-height: 50px;
+    align-items: center;
+
 }

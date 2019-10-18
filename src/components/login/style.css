@@ -10,10 +10,10 @@
 
 .for-log {
     position: absolute;
-    width: 20%;
-    height: 6%;
-    right: 40%;
-    top: 30%;
+    width: 217px;
+    height: 35px;
+    left: 436px;
+    top: 180px;
 
     border-radius: 20px;
     background: rgba(196, 196, 196, 0.15);
@@ -21,21 +21,25 @@
 
 .for-pas {
     position: absolute;
-    width: 20%;
-    height: 6%;
-    left: 40%;
-    top: 40%;
+    width: 217px;
+    height: 35px;
+    left: 436px;
+    top: 230px;
 
     border-radius: 20px;
     background: rgba(196, 196, 196, 0.15);
 }
 
+:focus {
+    outline-width: 0 !important;
+}
+
 .for-in-button {
     position: absolute;
-    width: 9%;
-    height: 5%;
-    left: 40%;
-    top: 50%;
+    width: 80px;
+    height: 30px;
+    left: 436px;
+    top: 280px;
 
     background: #FFFFFF;
     border-radius: 20px;
@@ -44,10 +48,11 @@
 
 .for-reg-button {
     position: absolute;
-    width: 9%;
-    height: 5%;
-    right: 40%;
-    top: 50%;
+    width: 110px;
+    height: 30px;
+    right: 436px;
+    left: 543px;
+    top: 280px;
 
     background: #FFFFFF;
     border-radius: 20px;
