@@ -2,19 +2,27 @@ import React from 'react'
 import PersonItem from './personItem'
 import './style.css'
 
-const PersonListColumn = ({name, workTime, picture}) => {
-    return(
+const PersonListColumn = ({id, name, workTime}) => {
+    return (
         <>
-            <div style={{'borderRadius':'0'}} className="popover-body for-names">{name}</div>
+            <div style={{'borderRadius': '0'}} className="popover-body for-names">{name}</div>
             <ul>
                 {
-                    workTime.map((el, index) => {
-                        return <li style={{'borderRadius':'0'}}  className="modal-body" key={index}><PersonItem name={name} picture={picture} isWork={el}/></li>
-                    })
+                    workTime ?
+                        workTime.map((el, index) => {
+                            return <li style={{'borderRadius': '0'}}
+                                       className="modal-body" key={index}>
+                                <PersonItem id={id}
+                                            index={index}
+                                            isWork={el}
+                                            name={name}/>
+                            </li>
+                        }) : null
                 }
             </ul>
         </>
     );
 };
+
 
 export default PersonListColumn;

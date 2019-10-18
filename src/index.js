@@ -8,11 +8,8 @@ import  {createStore, applyMiddleware} from "redux";
 import thunk from 'redux-thunk'
 import Provider from "react-redux/es/components/Provider";
 import reducer from './reducers'
-import {setWorkers} from "./actions";
 
 const store = createStore(reducer, applyMiddleware(thunk));
-store.dispatch(setWorkers());
-setTimeout(() => console.log(store.getState()), 3000);
 
 ReactDOM.render(<Provider store={store}>
         <App />

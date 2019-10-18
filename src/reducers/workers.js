@@ -10,9 +10,7 @@ const workers = (state = initialState, action) => {
             return [...action.value]
         }
         case ADD_WORKER: {
-            const newState = {...state};
-            newState.workers.push(action.value);
-            return newState;
+            return [...state, action.value];
         }
         case DELETE_WORKER: {
             const {id} = action.value;
@@ -21,13 +19,13 @@ const workers = (state = initialState, action) => {
             return {...workers.slice(0, index), ...workers.slice(index+1)};
         }
         case SET_WORK_DAY: {
+            const workers = [...state];
             const {id, dayIndex} = action.value;
-            const {workers} = state;
             const index = workers.findIndex(el => el.id === id);
             const newArray = change(workers[index].workTime, dayIndex);
             const newPerson = {...workers[index]};
             newPerson.workTime = newArray;
-            return {workers: [...workers.slice(0, index), newPerson, workers.slice(index + 1)]};
+            return [...workers.slice(0, index), newPerson, ...workers.slice(index + 1)];
         }
         default:
             return state;

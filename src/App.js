@@ -4,17 +4,27 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavigationBar from "./components/navigationBar";
 import Login from './components/login'
 import './carbon/src/style'
-import dataBase from './database'
+import {connect} from "react-redux";
+import {setWorkers} from "./actions";
 
 
-export default class App extends Component {
+class App extends Component {
     state = {
         valid: false,
-        data: dataBase
     };
+
+    componentDidMount() {
+        this.props.getWorkers()
+    }
+
     render(){
     const body = this.state.valid ?
-       <div className="for-bar-table"><NavigationBar/></div> : <div className="for-login"><Login checkLogin={this.checkLogin} AddInData={this.AddInData}/></div>;
+       <div className="for-bar-table">
+           <NavigationBar />
+       </div> :
+        <div className="for-login">
+            <Login checkLogin={this.checkLogin}/>
+        </div>;
         return(
             <div className="for-main-block">
                 {body}
@@ -24,22 +34,17 @@ export default class App extends Component {
 
     checkLogin = (login,password) => {
         this.setState({
-            valid: this.state.data.filter(((el) => el.login === login && el.password === password)).length !== 0
+            valid: this.props.state.filter(((el) => el.login === login && el.password === password)).length !== 0
         })
     };
-
-    createNewItem = (firstName,secondName,login,password) => {
-        return {firstName,secondName,login,password}
-    };
-
-    AddInData = (firstName,secondName,login,password) => {
-        const newData = [...this.state.data, this.createNewItem(firstName,secondName,login,password)];
-        this.setState({
-            data: newData,
-            valid: false
-        })
-    }
 }
+
+export default connect(
+    state => ({state: state.workers}),
+    dispatch => ({
+        getWorkers: () => dispatch(setWorkers()),
+    })
+)(App);
 
 
 

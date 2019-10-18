@@ -1,20 +1,28 @@
-import React,{Component} from 'react'
+import React, {Component} from 'react'
 import Portrait from '../../../../carbon/src/components/portrait'
 import './style.css'
+import {connect} from "react-redux";
+import {setWorkDay} from "../../../../actions";
 
 
-const peopleItem = ({isWork,name,picture}) => {
-    const style = isWork ? "isWork" : "isChill";
-    return(
-        <div className={style} onClick={() => F(isWork,name)}>
-        <Portrait shape="circle" initials={name} src={picture} alt={name} darkBackground={false} />
-        </div>
-    );
-};
+class peopleItem extends Component {
 
-const F = (isWork, name) => {
-    const newisWork = !isWork
-    console.log(name + " " + newisWork)
+     change = () => {
+        this.props.setWorkDay(this.props.id, this.props.index);
+    };
+
+    render() {
+        const {name} = this.props;
+        const style = this.props.isWork ? "isWork" : "isChill";
+        return (
+            <div className={style} onClick={this.change}>
+                <Portrait shape="circle" initials={name} /*src={picture} alt={name}*/ darkBackground={false}/>
+            </div>
+        );
+    };
 }
 
-export default peopleItem;
+export default connect(state => ({state: state.workers}),
+    dispatch => ({
+        setWorkDay: (id, index) => dispatch(setWorkDay(id, index))
+}))(peopleItem);
